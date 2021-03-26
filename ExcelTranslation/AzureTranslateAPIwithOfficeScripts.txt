@@ -1,0 +1,19 @@
+Script: GetColAVal
+function main(workbook: ExcelScript.Workbook): string {
+  //Get last cell value in column A - to translate.
+  let ENFRSheet = workbook.getWorksheet('EN-FR') 
+  let Table1Range = ENFRSheet.getTable('Table1').getRangeBetweenHeaderAndTotal()
+  let lastRow = Table1Range.getLastRow()
+  let colAVal = lastRow.getValues()[0][0].toString()
+  return colAVal
+}
+
+Script: TranslatesetVal
+function main(workbook: ExcelScript.Workbook, returnVal:string) {
+  //let returnVal:string = "Sometext"
+  let ENFRSheet = workbook.getWorksheet('EN-FR')
+  let Table1Range = ENFRSheet.getTable('Table1').getRangeBetweenHeaderAndTotal()
+  let lastRow = Table1Range.getLastRow()
+  let lastRowNo = lastRow.getRowIndex()
+  ENFRSheet.getCell(lastRowNo,1).setValue(returnVal)
+ }
