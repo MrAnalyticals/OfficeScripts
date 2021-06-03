@@ -1,1 +1,4 @@
-
+My Salinger Year (also known as My New York Year) is a 2020 drama film written and directed by Philippe Falardeau, based upon the memoir, of the same name, by Joanna Rakoff. 
+After attending a recent cinema screening of "My Salinger Year", in 2021, it occurred to me that Excel could help with creating typos just like JD Salinger wanted. This demo app uses a new programming language called Office Scripts to create new three letter words. An online dictionary was added to the solution so that the definitions, if they, exist appear alongside the newly generated words.
+The YouTube video that accompanies this GitHub repo can be found here : https://youtu.be/GprM8uMOcac
+In this repo there are the TypeScript files (x 2), the Word description document that goes into detail about the entire solution including a descrption of the accompanying Power Automate Flow.
