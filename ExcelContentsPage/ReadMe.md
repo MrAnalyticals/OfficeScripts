@@ -1,4 +1,4 @@
-Create an Excel Online Contents Page 
+**Create an Excel Online Contents Page **
 
 Using Office Scripts macro language you can create a Contents page that lists the worksheets, tables and charts in your work book. Simply past the following code into the code pane in Excel, save the script and run it.
 
