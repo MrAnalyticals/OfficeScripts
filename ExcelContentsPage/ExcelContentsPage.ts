@@ -19,6 +19,14 @@ function main(workbook: ExcelScript.Workbook) {
   if (ToCExists != true) {workbook.addWorksheet("ToC")} 
   let tocWorkSheet = workbook.getWorksheet('ToC')
   tocWorkSheet.getRange('A1').setValue('Contents Page')
+  // Set font bold to true for range A1 on selectedSheet
+  tocWorkSheet.getRange("A1").getFormat().getFont().setBold(true);
+  // Set font color to 4472C4 for range A1 on selectedSheet
+  tocWorkSheet.getRange("A1").getFormat().getFont().setColor("4472C4");
+  // Set font underline to true for range A1 on selectedSheet
+  tocWorkSheet.getRange("A1").getFormat().getFont().setUnderline(ExcelScript.RangeUnderlineStyle.single);
+
+
   //delete existing ToC tables
   tocWorkSheet.getRange("B:I").delete(ExcelScript.DeleteShiftDirection.left)
   //Tables
@@ -44,13 +52,14 @@ function main(workbook: ExcelScript.Workbook) {
   }
   let jStr:string = String(j+2)
   let tableoftablesRange:string
-  tableoftablesRange = `${'E2:F'+jStr}`
+  tableoftablesRange = `${"'ToC'!" + 'E2:F' + jStr}`
+  //tableoftablesRange = `${'E2:F'+jStr}`
   workbook.addTable(tableoftablesRange, true)
 
 //Worksheets
   let reportCell = tocWorkSheet.getRange("B2")
   reportCell.setValue("Worksheet")
-  let newTable = workbook.addTable(reportCell, true)
+  workbook.addTable(reportCell, true)
   reportCell.getOffsetRange(0, 1).setValue("Link")
   for (let i = 0; i < allSheets.length; i++) {
     reportCell.getOffsetRange(i + 1, 0).setValue(allSheets[i].getName())
@@ -73,26 +82,29 @@ function main(workbook: ExcelScript.Workbook) {
     let chartNameVal:string
     let chartFormula:string
     let SheetNameVal: string
-
+    let chartAddressesVal:string
     //Loop through all worksheets to access each chart on each sheet
     allSheets.forEach((sheetobj1) => {
-      SheetNameVal = sheetobj1.getName().toString()
-        console.log('SheetNameVal: ' +SheetNameVal)
-      chartFormula = '=HYPERLINK("#' + "'" + sheetobj1.getName() + "'!A1" + '","' + sheetobj1.getName() + '")'
-      if(sheetobj1.getName()!='ToC'){
-      chartCell.getOffsetRange(M + 1, 1).setFormulaLocal(chartFormula)}
-      let sheetChartCollection = sheetobj1.getCharts()
-      sheetChartCollection.forEach((sheetChart) => {
-        chartNameVal = sheetChart.getName().toString()
-        console.log('M: ' + M)
-        console.log('chartNameVal: '+chartNameVal)
-        chartCell.getOffsetRange(M + 1, 0).setValue(chartNameVal)
-            M++
-        })
-      })
+    SheetNameVal = sheetobj1.getName().toString()
+    //console.log('SheetNameVal: ' +SheetNameVal)
+    let sheetChartCollection = sheetobj1.getCharts()
+    sheetChartCollection.forEach((sheetChart) => {
+      chartNameVal = sheetChart.getName().toString()
+       //console.log('M: ' + M)
+       //console.log('chartNameVal: '+chartNameVal)
+  chartCell.getOffsetRange(M + 1, 0).setValue(chartNameVal)
+  let topLeftCell = getCellUnderChart(sheetChart, sheetobj1)
+  chartAddressesVal = topLeftCell.getAddress().toString()
+  chartAddressesVal = chartAddressesVal.split('!').splice(1, 1).toString()
+        chartFormula = '=HYPERLINK("#' + "'" + sheetobj1.getName() + "'!" + chartAddressesVal + '","' + sheetobj1.getName() + '")'
+  if (sheetobj1.getName() != 'ToC') {
+     chartCell.getOffsetRange(M + 1, 1).setFormulaLocal(chartFormula)
+  }
+  M++
+  })})
     let MStr: string = String(M + 2)
     let chartTableRange: string
-    chartTableRange = `${'H2:I' + jStr}`
+    chartTableRange = `${"'ToC'!" + 'H2:I' + MStr}`
     workbook.addTable(chartTableRange, true)
   }
   
@@ -108,3 +120,20 @@ console.log('Contents Page Created')
   
 }
 
+function getCellUnderChart(cht: ExcelScript.Chart, ws: ExcelScript.Worksheet): ExcelScript.Range {
+  let topLeftCell = ws.getRange("A1");
+  let i = 0;
+  do {
+    i++;
+    topLeftCell = topLeftCell.getOffsetRange(0, i)
+  }
+  while (topLeftCell.getLeft() < cht.getLeft());
+  i = 0;
+  do {
+    i++;
+    topLeftCell = topLeftCell.getOffsetRange(i, 0)
+  }
+  while (topLeftCell.getTop() < cht.getTop());
+
+  return topLeftCell.getOffsetRange(-1, -1);
+}
