@@ -1,5 +1,7 @@
 **Create an Excel Online Contents Page bersion 2**
-UPDTAE: Now enhanced to include a Named Ranges table.  
+UPDATE: Now enhanced to include a Named Ranges table.  
+The .ts file, in the repo, contains the unformatted script which can be pasted straight into the Excel code pane. 
+The .osts file can be placed into your Office Scripts folder in your OneDrive and Excel will, then have sight of the file. 
 
 Using Office Scripts macro language you can create a Contents page that lists the worksheets, tables and charts in your work book. Simply past the code in file ExcelContentsPage.ts into the code pane in Excel, save the script and run it.
 
