@@ -68,7 +68,7 @@ The Power Automate Flow
 ![TwitterMeltwaterFlow](https://user-images.githubusercontent.com/47678539/146658461-9b503fc9-055c-40e3-8648-5da1d91bd53f.png)
 
 
-The Excel Script used in the Flow
+**The Excel Script used in the Flow:**
 
 function main(workbook: ExcelScript.Workbook, csvinput:string) {
   //console.log('defns : ' + defns)
