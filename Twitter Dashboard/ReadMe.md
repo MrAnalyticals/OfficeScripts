@@ -16,6 +16,9 @@ The accompanying YouTube video (Video title: “Building a Twitter analytics das
 This demo shows how to integrate the Meltwater platform with the Office 365 platform utilising Power Automate, Excel Online and Excel Office Scripts. The dataset used for the demo was the count of Twitter comments containing the word “covid” listed by country of origin over a tumbling window of 5 minutes. 
 The Excel workbook and Office Script are included within this repo. 
 
+<img width="960" alt="Excel Dashboard Screenshot" src="https://user-images.githubusercontent.com/47678539/146658408-5d03aaa2-06c3-4526-b3ab-80841332a58e.PNG">
+
+
 An example of the Meltwater dynamically Generated REST API URL
 curl -X GET \ 
 	--url "https://api.meltwater.com/v3/analytics/17302062/top_locations?start=2021-12-16T00:00:00&end=2021-12-17T00:00:00&tz=Europe/London&source=twitter&size=100&level=country" \ 
@@ -62,6 +65,7 @@ Tunisia	tn	1	0.46
 
 The Power Automate Flow
  
+![TwitterMeltwaterFlow](https://user-images.githubusercontent.com/47678539/146658461-9b503fc9-055c-40e3-8648-5da1d91bd53f.png)
 
 
 The Excel Script used in the Flow
