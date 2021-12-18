@@ -4,7 +4,7 @@ The Meltwater Platform enables the consumption of many data sources including So
 Meltwater states on its website, as at 18th December 2021: 
 “We offer comprehensive media monitoring and analysis across online news, social media, print, broadcast, and podcasts, capturing more content and conversations than anyone else in the industry. Our suite of products aims to solve the problems faced by modern PR, communications, and marketing professionals.”
 
-<img width="320" alt="Meltwater Webpage Intro" src="https://user-images.githubusercontent.com/47678539/146658331-886b3c13-1185-496e-9096-40126dfd412c.png">
+<img width="960" alt="MeltwaterIntrPage" src="https://user-images.githubusercontent.com/47678539/146658640-3ca9e7c0-92c6-4ae4-93f1-9c7467a07050.PNG">
 
  
 The accompanying YouTube video (Video title: “Building a Twitter analytics dashboard using the Meltwater platform”), to this Github repo, is split into four parts as follows:
