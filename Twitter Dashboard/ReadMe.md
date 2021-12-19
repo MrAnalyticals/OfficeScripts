@@ -13,6 +13,8 @@ The accompanying YouTube video (Video title: “Building a Twitter analytics das
 3.	Power Automate Flow walkthrough “Meltwater Twitter Covid to Excel”.
 4.	Excel Script walkthrough “InputCSVMeltwater”.
 
+YouTube video: https://youtu.be/4ReZLoVEWA0
+
 This demo shows how to integrate the Meltwater platform with the Office 365 platform utilising Power Automate, Excel Online and Excel Office Scripts. The dataset used for the demo was the count of Twitter comments containing the word “covid” listed by country of origin over a tumbling window of 5 minutes. 
 The Excel workbook and Office Script are included within this repo. 
 
