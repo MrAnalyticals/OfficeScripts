@@ -87,6 +87,7 @@ function main(workbook: ExcelScript.Workbook, csvinput:string) {
 //Clear existing data
 Sheet1.getRange('A2:D40').clear(ExcelScript.ClearApplyTo.contents)
 Sheet1.getRange('A41:D80').clear(ExcelScript.ClearApplyTo.contents)
+Sheet1.getRange('A81:D101').clear(ExcelScript.ClearApplyTo.contents)
 
 let inputArray = csvinput.split('\r\n')
   //console.log('inputArray:' + inputArray)
