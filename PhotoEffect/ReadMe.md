@@ -8,4 +8,4 @@ the cells to show through.
 Copy paste the code from GreatArtEffects.ts straight into the Excel Office Scripts pane. Then run it!
 
 
-The video demoing this can be found at  : 
+The video demoing this can be found at  : https://www.youtube.com/watch?v=pGg1UxuxDBc
