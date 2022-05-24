@@ -1,4 +1,4 @@
-Generate N-Length passwords using Office Scripts.
+**Generate N-Length passwords using Office Scripts.**
 
 Using 26 lines of code you can generate a password of any length in seconds! 
 The password is generated randomly from a predefined set of characters. You can set the password length using the Excel Worksheet. 
