@@ -7,4 +7,4 @@ The password is generated randomly from a predefined set of characters. You can 
 
 The full script is available in PasswordGenV1.ts https://github.com/MrAnalyticals/OfficeScripts/blob/main/PasswordGenerator/PasswordGenV1.ts.
 The accompanying Excel file can be found here : OS Password Gen.xlsx https://github.com/MrAnalyticals/OfficeScripts/blob/main/PasswordGenerator/OS%20Password%20Gen.xlsx
-The accompanying YouTube video can be found here : 
+The accompanying YouTube video can be found here : https://lnkd.in/gGdau8mY
