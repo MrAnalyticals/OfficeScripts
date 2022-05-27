@@ -9,3 +9,5 @@ There is work ongoing, at this time, to enable Visual Studio Code to have Office
 
 ![image](https://user-images.githubusercontent.com/47678539/170617434-dca68348-6fdf-4ac2-aab5-9685703aa0e4.png)
 
+In the demo video I test running two scripts against an open Excel desktop file at the same time! See what happens. 
+The script is available, for learning purposes, here:  
