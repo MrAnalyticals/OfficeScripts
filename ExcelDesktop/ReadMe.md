@@ -7,3 +7,5 @@ There is work ongoing, at this time, to enable Visual Studio Code to have Office
 
 ![image](https://user-images.githubusercontent.com/47678539/170617366-a7964812-a20f-4556-b455-990e76361772.png)
 
+![image](https://user-images.githubusercontent.com/47678539/170617434-dca68348-6fdf-4ac2-aab5-9685703aa0e4.png)
+
