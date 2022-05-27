@@ -1,5 +1,5 @@
 In May 2022 The Microsoft Office Scripts team announced the release of Office Scripts for Excel Desktop for Windows. 
-The technology that brings this new functionaloity is , I belive, called WebView2. In the associated YouTube demo video I show how to run OFfice Scripts in Desktop Excel. 
+The technology that brings this new functionaloity is , I belive, called WebView2. In the associated YouTube demo video I show how to run Office Scripts in Desktop Excel. 
 Though we cannot edit code it can only be run. The editing is still confined, at this time, to the Code Editor in Excel Online.
 There is work ongoing, at this time, to enable Visual Studio Code to have Office Scripts and TypeScript editing, Run and Debug functionality. 
 
