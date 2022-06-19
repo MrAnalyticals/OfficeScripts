@@ -1,13 +1,14 @@
 
-Microsoft Webinar – Using Excel Office Scripts with Power Automate
+**Microsoft Webinar – Using Excel Office Scripts with Power Automate**
 Register here to see the webinar: https://msft.it/6046bYD9o
 See the QnA below.
-References
+
+**References**
 Excel Office Scripts Tutorial 
 Pass data to scripts in an automatically-run Power Automate flow - Office Scripts | Microsoft Docs
 https://docs.microsoft.com/en-gb/office/dev/scripts/tutorials/excel-power-automate-trigger 
 
-Video Script
+**Video Script**
 The Microsoft Excel Office Scripts Team has created a very clear webinar that introduces Excel Office scripts and also gives a very insightful code demo. 
 The demo shows how to integrate your Office Script with a Power Automate Flow passing a parameter into and out of the Excel Office Script.
 You need to register to see the webinar at this URL:
@@ -23,7 +24,7 @@ Hope you enjoy this video. Check out my business website too.
 
 
 
-Promotional
+**Promotional**
 Analysis Cloud YouTube video: https://youtu.be/Tzek7PmFlhk
 
 Analysis Cloud Business Website: https://www.analysis.ie
@@ -33,7 +34,7 @@ The Irish Cloud Company
 
  
 
-Webinar QnA
+**Webinar QnA**
 
 •	Scripts are saved to OneDrive --- is there an ability to save scripts to a file so other users can easily run the scripts as well?
 You can share an Office Script in a workbook so that other users who have access to that workbook can view and run the script. We are also currently working on a feature that allows you to save a script to a SharePoint site so that members of that site will have access to that script as well.
