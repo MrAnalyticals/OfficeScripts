@@ -3,6 +3,8 @@
 Register here to see the webinar: https://msft.it/6046bYD9o
 See the QnA below.
 
+See my YouTube video that accompanies this GitHub repo: https://youtu.be/Tzek7PmFlhk
+
 **References**
 Excel Office Scripts Tutorial 
 Pass data to scripts in an automatically-run Power Automate flow - Office Scripts | Microsoft Docs
@@ -25,6 +27,7 @@ Hope you enjoy this video. Check out my business website too.
 
 
 **Promotional**
+
 Analysis Cloud YouTube video: https://youtu.be/Tzek7PmFlhk
 
 Analysis Cloud Business Website: https://www.analysis.ie
