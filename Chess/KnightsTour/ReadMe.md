@@ -6,6 +6,10 @@ YouTube video: https://youtu.be/WaLGnBs7QwM
 
 The OfficeScript .ts files can be found here:
 https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/SetKnightStartPosition.ts
+https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/KnightsTour1Attempt.ts
+https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/FindAKnightsTour.ts
+https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/RunChessKnightsTourDemo.ts
+
 
 
 
