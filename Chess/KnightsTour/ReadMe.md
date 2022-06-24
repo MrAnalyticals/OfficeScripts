@@ -5,6 +5,8 @@
 YouTube video: https://youtu.be/WaLGnBs7QwM
 
 The OfficeScript .ts files can be found here:
+https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/SetKnightStartPosition.ts
+
 
 
 The Excel workbook can be found here: https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/KnightsTour.xlsx
