@@ -7,7 +7,7 @@ YouTube video: https://youtu.be/WaLGnBs7QwM
 The OfficeScript .ts files can be found here:
 
 
-The Excel workbook can be found here:
+The Excel workbook can be found here: https://github.com/MrAnalyticals/OfficeScripts/blob/main/Chess/KnightsTour/KnightsTour.xlsx
 
 
 <img width="775" alt="Set Knight Start Pos" src="https://user-images.githubusercontent.com/47678539/175559498-f47ba43a-05f6-4dbb-9775-683b0578fc36.PNG">
