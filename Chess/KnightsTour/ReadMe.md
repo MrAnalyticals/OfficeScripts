@@ -1,11 +1,20 @@
 
-Excel Office Scripts Knights Tour
+**Excel Office Scripts Knights Tour**
+
+
 YouTube video: https://youtu.be/WaLGnBs7QwM
+
 The OfficeScript .ts files can be found here:
+
+
 The Excel workbook can be found here:
+
+
 <img width="775" alt="Set Knight Start Pos" src="https://user-images.githubusercontent.com/47678539/175559498-f47ba43a-05f6-4dbb-9775-683b0578fc36.PNG">
 
-Video Script
+**Video Script**
+
+
 For those of us who love chess and Excel here is a treat for you! 
 A chess themed Excel Office Scripts demo ! 
 So, a quick introduction for those of who are new to Office Scripts. Excel Office Scripts is a new macro language for Excel Online. Excel VBA does not work online. Office Scripts was utilised to fill that gap. Office Scripts is a language based on TypeScript but with slight variations because it operates with an Excel object model. 
