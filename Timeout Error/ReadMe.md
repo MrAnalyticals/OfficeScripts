@@ -1,6 +1,7 @@
 
 **Avoiding and Managing the Excel Office Scripts 2-minute timeout error**
 
+YouTube video: https://youtu.be/b2hLdkioPGg
 **Video Script**
 
 In a previous video, I did, demoing the Knights Tour search using Office Scripts I encountered a timeout error. Let us, in this video, have a look at that issue in more detail. 
