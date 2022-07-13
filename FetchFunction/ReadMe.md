@@ -8,7 +8,8 @@ Also included is a routine of VBA that uses the QueryTables.Add method to retrie
 The URL in the demo is :  
 https://raw.githubusercontent.com/treselle-systems/customer_churn_analysis/master/WA_Fn-UseC_-Telco-Customer-Churn.csv
 
-The Office Script Example FetchingCSVv3 : 
+The Office Script Example FetchingCSVv3 : https://github.com/MrAnalyticals/OfficeScripts/blob/main/FetchFunction/FetchingCSVv3.ts
+
 ![image](https://user-images.githubusercontent.com/47678539/178654637-d479a4c1-8502-4584-b303-2442c786ea96.png)
 ![image](https://user-images.githubusercontent.com/47678539/178654681-5d1e5fdb-d7c0-447e-aaf4-715b0b6fd760.png)
 
