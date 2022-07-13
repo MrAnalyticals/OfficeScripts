@@ -1,7 +1,7 @@
 
-
-
 **Scrape CSV web data with Excel Office Scripts without using Interfaces**
+
+YouTube Demo Video:  https://youtu.be/iB1GU20WqTc
 
 In this repo I use the fetch function to retrieve csv data from a URL. The code did not need to use any interfaces to handle the returned data. 
 Also included is a routine of VBA that uses the QueryTables.Add method to retrieve data from a URL.
@@ -43,8 +43,6 @@ https://docs.microsoft.com/en-gb/office/dev/add-ins/concepts/resource-limits-and
 ![image](https://user-images.githubusercontent.com/47678539/178653205-5eb8f3c7-ed55-4aa6-bce7-3371999efed1.png)
 
 
-
-YouTube Demo Video:  
 **YouTube Video Script**
 
 Microsoft recently announced new Get Data functionality for Excel Online. It is being rolled out this year 2022. In the meantime you can use Office Scripts to perform webscraping to obtain data from online resources like GitHub.  In this video I demo Office Scripts code that uses the Fetch function to obtain a csv file without using an Interface – an artifice that structures returned data.
