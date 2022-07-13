@@ -8,6 +8,11 @@ Also included is a routine of VBA that uses the QueryTables.Add method to retrie
 The URL in the demo is :  
 https://raw.githubusercontent.com/treselle-systems/customer_churn_analysis/master/WA_Fn-UseC_-Telco-Customer-Churn.csv
 
+The Office Script Example FetchingCSVv3 : 
+![image](https://user-images.githubusercontent.com/47678539/178654637-d479a4c1-8502-4584-b303-2442c786ea96.png)
+![image](https://user-images.githubusercontent.com/47678539/178654681-5d1e5fdb-d7c0-447e-aaf4-715b0b6fd760.png)
+
+
 There is a 5million cells and 5MB size limit when using the fetch function in Excel Office Scripts. 
 
 This URL tests this. It returns the “too big” notification: 
@@ -36,7 +41,7 @@ https://docs.microsoft.com/en-gb/office/dev/add-ins/concepts/resource-limits-and
 
 ![image](https://user-images.githubusercontent.com/47678539/178653205-5eb8f3c7-ed55-4aa6-bce7-3371999efed1.png)
 
-The Office Script Example FetchingCSVv3 : 
+
 
 YouTube Demo Video:  
 **YouTube Video Script**
