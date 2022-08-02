@@ -7,7 +7,10 @@ Can Excel OnLine cope with Big Data? Yes, with a little help from Power Automate
 
 YouTube Video: https://youtu.be/SuFYixYWE2M
 
-The ImportCSVasParam Office Script is here:  
+The ImportCSVasParam Office Script is here: https://github.com/MrAnalyticals/OfficeScripts/blob/main/ExcelBigData/ImportCSVasParam.ts 
+
+The Data Factory Pipeline JSON: https://github.com/MrAnalyticals/OfficeScripts/blob/main/ExcelBigData/Pipe_Chunking.txt 
+
 
 The Table of Contents Office Script : https://github.com/MrAnalyticals/OfficeScripts/blob/main/ExcelContentsPagev2/TableOfContentsV2.ts  
 
@@ -48,3 +51,23 @@ Excel Online does not have, at this time, a functioning Data Menu. That is, we c
 Microsoft is as we speak building and releasing at various stages importing functionality. 
 Because Power Automate’s actions are by their very nature HTTP limited it means when passing data to and from http located data sources it will never be as capable as Azure Data Factory. Data Factory can perform the ETL and integration activities without passing data to and from different http locations. Here are some of the limitations of Power Automate when it comes to handling rows of data. In this project I use Data Lake stored data and Data Factory to do the transforming tasks. Power Automate is used only after the data has been cut down (also known as chunked) to within its size limits. 
 Because I am dealing with big data, here, in this case up to 2.7 million rows, looping through so many rows, Power Automate cannot cope with that many rows, even when the flow owner has the most expensive licence. 
+
+![image](https://user-images.githubusercontent.com/47678539/182425363-85952108-bebd-4d9f-901a-fada7d2647a7.png)
+
+
+**Word System Design diagram**
+![image](https://user-images.githubusercontent.com/47678539/182425467-236ad117-63bd-4603-899f-6b173aa1d9a8.png)
+
+
+As shown in the solution diagram the process starts with the file being uploaded to the required Storage Container. This can be done manually through the Azure Portal itself or via the Storage Explorer or indeed by other automated methods. When the file arrives a Data Factory pipeline is triggered which splits that large file into files of 40,000 rows long. Those chunk files are created in a folder called “Chunked”. Once the chunking process has finished a txt file is updated to include a list of the names of the newly created chunk files. This is used to create the location string of those chunk files. Once the txt file has been updated a Power Automate Flow is triggered which then loops through each of the chunk files passing their contents (i.e. their data) into an Office Script. That Office Script outputs the data into a new worksheet for each chunk file. 
+You can, if you wish, modify the Office Script to append each chunked input to the end of the previous chunk but given the row limit in Excel worksheet is 1 million rows this will fail for our second upload of 2.7 million rows. You can also, amend the Office Script to overwrite any existing table with the newly inputted chunk data. And, indeed, doing that would, in effect, create a refresh process.
+Additionally you can add a DropBox trigger to the Flow so that when you or, indeed, a client, drops a file into a shared DropBox, the file will get transferred into Azure Data Lake. There is a 50MB limit on the Power Automate Drop Box Trigger. 
+
+![image](https://user-images.githubusercontent.com/47678539/182425563-c0f27516-c1cb-4588-af8b-acb84f1775bf.png)
+
+
+![image](https://user-images.githubusercontent.com/47678539/182425592-c2bedecd-8926-445f-855f-29409c76268f.png)
+
+
+
+
