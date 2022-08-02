@@ -1,0 +1,256 @@
+{
+    "name": "Pipe_Chunking",
+    "properties": {
+        "description": "Splits uploaded files into smaller chunked ones of 50,000 rows or 2MB in size.",
+        "activities": [
+            {
+                "name": "TestCopyData",
+                "type": "Copy",
+                "dependsOn": [
+                    {
+                        "activity": "Delete1",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "AzureBlobFSReadSettings",
+                            "recursive": true,
+                            "wildcardFolderPath": "UploadedFiles",
+                            "wildcardFileName": {
+                                "value": "@pipeline().parameters.upLoadedFileName",
+                                "type": "Expression"
+                            },
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "DelimitedTextSink",
+                        "storeSettings": {
+                            "type": "AzureBlobFSWriteSettings"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextWriteSettings",
+                            "maxRowsPerFile": 40000,
+                            "quoteAllText": true,
+                            "fileExtension": ""
+                        }
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_UploadedFolder",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_Chunked",
+                        "type": "DatasetReference"
+                    }
+                ]
+            },
+            {
+                "name": "Delete1",
+                "type": "Delete",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "dataset": {
+                        "referenceName": "ds_Chunked",
+                        "type": "DatasetReference"
+                    },
+                    "enableLogging": false,
+                    "storeSettings": {
+                        "type": "AzureBlobFSReadSettings",
+                        "recursive": true,
+                        "enablePartitionDiscovery": false
+                    }
+                }
+            },
+            {
+                "name": "Get Metadata1",
+                "type": "GetMetadata",
+                "dependsOn": [
+                    {
+                        "activity": "TestCopyData",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "dataset": {
+                        "referenceName": "ds_Chunked",
+                        "type": "DatasetReference"
+                    },
+                    "fieldList": [
+                        "childItems"
+                    ],
+                    "storeSettings": {
+                        "type": "AzureBlobFSReadSettings",
+                        "recursive": true,
+                        "enablePartitionDiscovery": false
+                    },
+                    "formatSettings": {
+                        "type": "DelimitedTextReadSettings"
+                    }
+                }
+            },
+            {
+                "name": "Create File List",
+                "description": "Creates the file containing the list of newly created chunked files.",
+                "type": "Copy",
+                "dependsOn": [
+                    {
+                        "activity": "varListFiles",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "additionalColumns": [
+                            {
+                                "name": "ListFiles",
+                                "value": {
+                                    "value": "@string(variables('varListFiles'))",
+                                    "type": "Expression"
+                                }
+                            }
+                        ],
+                        "storeSettings": {
+                            "type": "AzureBlobFSReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "DelimitedTextSink",
+                        "storeSettings": {
+                            "type": "AzureBlobFSWriteSettings"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextWriteSettings",
+                            "quoteAllText": true,
+                            "fileExtension": ".txt"
+                        }
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "ListFiles",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ListFiles",
+                                    "type": "String"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "DelimitedText1",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "DelimitedText2",
+                        "type": "DatasetReference"
+                    }
+                ]
+            },
+            {
+                "name": "varListFiles",
+                "type": "SetVariable",
+                "dependsOn": [
+                    {
+                        "activity": "Get Metadata1",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "variableName": "varListFiles",
+                    "value": {
+                        "value": "@string(activity('Get Metadata1').output.childItems)",
+                        "type": "Expression"
+                    }
+                }
+            }
+        ],
+        "parameters": {
+            "upLoadedFileName": {
+                "type": "string"
+            }
+        },
+        "variables": {
+            "varListFiles": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2022-07-29T02:28:20Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
