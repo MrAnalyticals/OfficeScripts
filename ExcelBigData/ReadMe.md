@@ -1,12 +1,19 @@
 
 There is no Power Query for Excel Online so how did I import 2.7M rows?
+
 With a little help from Power Automate, Data Factory and Office Scripts of course.
+
 Can Excel OnLine cope with Big Data? Yes, with a little help from Power Automate and Data Factory.
-YouTube Video: https://youtu.be/SuFYixYWE2M 
+
+YouTube Video: https://youtu.be/SuFYixYWE2M
+
 The ImportCSVasParam Office Script is here:  
+
 The Table of Contents Office Script : https://github.com/MrAnalyticals/OfficeScripts/blob/main/ExcelContentsPagev2/TableOfContentsV2.ts  
 
+
 The learning points from this video are as follows:
+
 
 •	Azure Data Factory 
 o	Split a file into smaller files using the “Max rows per file” Copy-Data setting.
