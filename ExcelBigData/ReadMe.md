@@ -1,5 +1,5 @@
 
-There is no Power Query for Excel Online so how did I import 2.7M rows?
+**There is no Power Query for Excel Online so how did I import 2.7M rows?**
 
 With a little help from Power Automate, Data Factory and Office Scripts of course.
 
@@ -15,18 +15,30 @@ The Table of Contents Office Script : https://github.com/MrAnalyticals/OfficeScr
 The learning points from this video are as follows:
 
 
-•	Azure Data Factory 
+•	**Azure Data Factory**
+
 o	Split a file into smaller files using the “Max rows per file” Copy-Data setting.
+
 o	Send data to a file using the Copy-data “Additional Column” method. 
+
 o	Trigger a Data Factory pipeline when a file is modified in Azure Data Lake
+
 o	Using variables and parameters in a Pipeline
-•	Power Automate
+
+•	**Power Automate**
+
 o	Pass data into an Excel Office Script from a Power Automate Flow.
+
 o	Using Azure Blob Actions in Power Automate.
+
 o	Using String functions in Power Automate. 
-•	Excel Office Scripts
+
+•	**Excel Office Scripts**
+
 o	Handling arrays of data with For Loops.
+
 o	Try-Catch Error Handling 
+
 
 Video Transcript
 
