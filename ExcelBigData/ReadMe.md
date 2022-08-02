@@ -71,3 +71,27 @@ Additionally you can add a DropBox trigger to the Flow so that when you or, inde
 
 
 
+**The Azure Data Factory**
+
+![image](https://user-images.githubusercontent.com/47678539/182425733-8eab88b1-a23b-4f34-8d73-bfd4477334c9.png)
+
+See Pipe_Chunking.txt file for full JSON version of the pipeline as well as its Activities
+
+**The Power Automate Screenshots**
+
+![image](https://user-images.githubusercontent.com/47678539/182425817-0bfa740a-929a-4f3c-bdbb-c0d2dc367e9a.png)
+
+
+![image](https://user-images.githubusercontent.com/47678539/182425844-58a510d4-09ab-4a21-bd87-5ab98bd45f23.png)
+
+
+![image](https://user-images.githubusercontent.com/47678539/182425890-9a659e81-d6d3-4d9e-a672-2c49533fbcf9.png)
+
+
+![image](https://user-images.githubusercontent.com/47678539/182425919-b236bc58-1119-439f-94d7-99f71c23fbff.png)
+
+
+![image](https://user-images.githubusercontent.com/47678539/182425955-3fafbf3a-e608-4bff-af14-8ecbf7e72f9e.png)
+
+
+
