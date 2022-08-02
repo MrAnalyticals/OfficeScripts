@@ -18,7 +18,7 @@ The Table of Contents Office Script : https://github.com/MrAnalyticals/OfficeScr
 The learning points from this video are as follows:
 
 
-•	**Azure Data Factory**
+**Azure Data Factory**
 
 o	Split a file into smaller files using the “Max rows per file” Copy-Data setting.
 
@@ -28,7 +28,7 @@ o	Trigger a Data Factory pipeline when a file is modified in Azure Data Lake
 
 o	Using variables and parameters in a Pipeline
 
-•	**Power Automate**
+**Power Automate**
 
 o	Pass data into an Excel Office Script from a Power Automate Flow.
 
@@ -36,14 +36,14 @@ o	Using Azure Blob Actions in Power Automate.
 
 o	Using String functions in Power Automate. 
 
-•	**Excel Office Scripts**
+**Excel Office Scripts**
 
 o	Handling arrays of data with For Loops.
 
 o	Try-Catch Error Handling 
 
 
-Video Transcript
+**Video Transcript**
 
 In a recent video I demonstrated use of the Office Scripts Fetch function to webscrape  csv data from GitHub. I, also, showed the size limitations of that method. In this new video I demo a small project that enables the importation of as many rows, of data, as you like into Excel Online, as long as the Excel file, itself, remains smaller than 100MB. 
 My demos show the importation of two datasets one of over 300,000 rows and a larger one of 2.7 M rows.
