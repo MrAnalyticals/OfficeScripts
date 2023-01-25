@@ -1,6 +1,5 @@
+**Excel Office Scripts Random Sentence Generator**
 
-**Excel Office Scripts Random Sentence Generator
-**
 
 ![image](https://user-images.githubusercontent.com/47678539/214718769-f10a6765-f6af-4bb8-930c-652bb6f809fa.png)
 
