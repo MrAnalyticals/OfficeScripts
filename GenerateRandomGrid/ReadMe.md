@@ -14,4 +14,4 @@ There are two functions, Create random grid and Is prime. Create random grid use
 
 Here, we can see the Is prime function.  This function uses a for loop to check if the number is divisible by any number between 2 and itself. If the number is divisible by any of those numbers, it is not prime and the function returns false.
 
-The Office Script is here: 
+The Office Script is here: https://github.com/MrAnalyticals/OfficeScripts/blob/main/GenerateRandomGrid/GenerateRandomGrid.osts
