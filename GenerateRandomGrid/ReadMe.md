@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/47678539/214701573-df36ac55-3c6c-49ee-84d3-109b8c36c3c6.png)
 
-**YouTube Video**: https://youtu.be/EvMFUTMeD44
+**YouTube Video**: https://youtu.be/jGeEpmUp6-4
 
 **Video Script**
 In this video I demonstrate how to generate a grid of random numbers of size n with the added paramterisation of the range of those random numbers. Excel has a limit of 50 columns for a number range of 1 to 1000. Though you may find a different limit. For extra interest I have added functionality to remove all those numbers that are prime from the grid.
