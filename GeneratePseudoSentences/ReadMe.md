@@ -6,7 +6,7 @@
 **YouTube Video**: https://youtu.be/7gHJ1YrC6JA
 
  
-**Office Script**: 
+**Office Script**: https://github.com/MrAnalyticals/OfficeScripts/blob/main/GeneratePseudoSentences/GeneratePseudoSentences.osts
 
 
 In this Script I define two helper functions: generateString and generateSentence.
