@@ -1,0 +1,57 @@
+function main(workbook: ExcelScript.Workbook) {
+//"Twinkle twinkle little star. How I wonder what you are." 
+//Quote by Mozart 
+let starrystarryNightSheet = workbook.getWorksheet('StarryStarryNight') 
+    // Create 100x100 grid of empty cells
+    let grid: string[][] = [];
+    for (let i = 0; i < 50; i++) {
+        let row: string[] = [];
+        for (let j = 0; j < 50; j++) {
+            row.push("");
+        }
+        grid.push(row);
+    }
+
+    // Place 150 "*" symbols in random locations in the grid
+    for (let i = 0; i < 150; i++) {
+        let x = Math.floor(Math.random() * 50);
+        let y = Math.floor(Math.random() * 50);
+        grid[x][y] = "*";
+    }
+//Input grid to worksheet
+let gridRange = starrystarryNightSheet.getRange('A1:AX50')
+//let leftPos:number=0
+gridRange.setValues(grid)
+  for (let j = 0; j < 40; j++) {
+    moveUFO(workbook, j * 15)
+    for (let i = 0; i < 25; i++) {
+    //replaceEmptyWithStar(grid)
+    replaceStarWithEmpty(grid)
+    
+    //gridRange.setValues(grid)
+  }
+  }
+
+  // Function to replace one "*" with an empty cell
+  function replaceStarWithEmpty(grid: string[][]) {
+    let x = Math.floor(Math.random() * 50);
+    let y = Math.floor(Math.random() * 50);
+    if (grid[x][y] === "*") {
+      grid[x][y] = ""
+      //gridRange.setValues(grid)
+      starrystarryNightSheet.getCell(x, y).setValue(grid[x][y])
+      //for (let i = 0; i < 6; i++) {
+      console.log('Found a star at x:' + x + ' y: '+ y)
+      grid[x][y] = "*"
+      //gridRange.setValues(grid)
+      starrystarryNightSheet.getCell(x, y).setValue(grid[x][y])
+            //}
+    } 
+    }
+  function moveUFO(workbook: ExcelScript.Workbook,leftVal:number) {
+    let StarryStarryNight = workbook.getWorksheet('StarryStarryNight')
+    let UFOComicShape = StarryStarryNight.getShape("UFOComic");
+    UFOComicShape.setLeft(leftVal);
+    UFOComicShape.setTop(150.00);
+  }
+}
