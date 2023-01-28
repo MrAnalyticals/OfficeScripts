@@ -1,11 +1,13 @@
-**"Twinkle twinkle little star. How I wonder what you are" -  Wolfgang Amadeus Mozart  
-**
-**An Office Scripts Animation Demo
-**
+**"Twinkle twinkle little star. How I wonder what you are" -  Wolfgang Amadeus Mozart**
+
+**An Office Scripts Animation Demo**
+
+
 ![image](https://user-images.githubusercontent.com/47678539/215289777-460cf1d2-22f4-4824-8396-751559a13ad8.png)
 
-**YouTube video:** 
-Office Script: 
+**YouTube video:**  
+
+**Office Script:** https://github.com/MrAnalyticals/OfficeScripts/blob/main/StarryNight/StarryNight2.osts
 
 In this video I demo how to create animation in Excel using Office Scripts. As you can see we have twinkling stars as well as a moving UFO image. 
 Getting the speed of the UFO and the rate of the twinkling stars was a process of trial and error as each affected the other and also differed depending on which Excel platform was used. The animation ran faster using Excel desktop.
