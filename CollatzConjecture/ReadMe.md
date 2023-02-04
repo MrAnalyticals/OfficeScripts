@@ -1,4 +1,5 @@
-Number Theory. Introducgin the Collatz Conjecture using Excel Office Scripts
+**Number Theory. Introducgin the Collatz Conjecture using Excel Office Scripts**
+
 
 
 The Collatz Conjecture is a simple mathematical problem that has puzzled mathematicians for many years. The problem states that if you start with any positive integer, and if the number is even, divide it by 2, and if it's odd, multiply it by 3 and add 1, and repeat this process, you will eventually reach the number 1. Despite its simplicity, no one has been able to prove or disprove the conjecture, and it remains one of the most famous unsolved problems in mathematics.
@@ -13,11 +14,12 @@ Step 7.	2 / 2 = 1
 
 ![image](https://user-images.githubusercontent.com/47678539/216773578-1cc2127d-9929-492d-aa43-dd80071d478a.png)
 
-The Office Script: 
+**The Office Script**: https://github.com/MrAnalyticals/OfficeScripts/blob/main/CollatzConjecture/Collatz.osts
 
-YouTube Video:
+**YouTube Video**:
 
-Audio Script
+**Audio Script**
+
 The Collatz Conjecture is a simple mathematical problem that has puzzled mathematicians for many years. Despite its simplicity, no one has been able to prove or disprove the conjecture, and it remains one of the most famous unsolved problems in mathematics.
 The problem states that if you start with any positive integer, and if the number is even, divide it by 2, and if it's odd, multiply it by 3 and add 1, and repeat this process, you will eventually reach the number 1.
 The conjecture has been verified for every number less than 2 to the power of 68.
