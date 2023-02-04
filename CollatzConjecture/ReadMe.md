@@ -1,4 +1,4 @@
-**Number Theory. Introducgin the Collatz Conjecture using Excel Office Scripts**
+**Number Theory. Introducing the Collatz Conjecture using Excel Office Scripts**
 
 
 
