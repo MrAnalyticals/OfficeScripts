@@ -16,7 +16,7 @@ Step 7.	2 / 2 = 1
 
 **The Office Script**: https://github.com/MrAnalyticals/OfficeScripts/blob/main/CollatzConjecture/Collatz.osts
 
-**YouTube Video**:
+**YouTube Video**: https://youtu.be/71pysJSvDMI
 
 **Audio Script**
 
