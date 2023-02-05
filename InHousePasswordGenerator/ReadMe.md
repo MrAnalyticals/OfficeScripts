@@ -1,7 +1,9 @@
 **InHouse Rules Password Generator using Excel Office Scripts**
 
-**In-House Rules**
+Many websites and systems have moved towards mandatory complex password usage. The rules make it very hard and time consuming to generate these passwords. Some businesses have additional rules including preventing passwords that look too similar to previous passwords. Together with the supplied Workbook this script will not only save you time but reduce one's stress levels.  
 
+**In-House Rules**
+The supplied script uses the following rules:
 
 •	Must contains at least one digit
 
@@ -17,6 +19,8 @@
 
 
 ![HouseRules](https://user-images.githubusercontent.com/47678539/216850511-f27b45a9-231a-4ebe-8128-f8776f5fd3f4.PNG)
+
+**YouTube video location:**  
 
 
 Audio Script
