@@ -1,7 +1,7 @@
-****InHouse Rules Password Generator using Excel Office Scripts
+**InHouse Rules Password Generator using Excel Office Scripts**
 
-**In-House Rules
-**
+**In-House Rules**
+
 
 •	Must contains at least one digit
 •	Must contain one at least one upper case letter
