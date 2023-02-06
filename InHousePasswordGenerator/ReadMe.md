@@ -20,7 +20,7 @@ The supplied script uses the following rules:
 
 ![HouseRules](https://user-images.githubusercontent.com/47678539/216850511-f27b45a9-231a-4ebe-8128-f8776f5fd3f4.PNG)
 
-**YouTube video location:**  
+**YouTube video location:**  https://www.youtube.com/watch?v=GjW-Q2O-nls
 
 
 Audio Script
