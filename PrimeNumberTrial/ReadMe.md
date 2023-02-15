@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/47678539/219172372-98f143da-81fa-4c73-9d05-f82b76e7cdd2.png)
 
-Office Script URL: 
+Office Script URL: https://github.com/MrAnalyticals/OfficeScripts/blob/main/PrimeNumberTrial/PrimeGen.osts
 
 **Script Audio
 **
