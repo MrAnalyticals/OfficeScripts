@@ -1,7 +1,6 @@
 **Analysing Prime Number Theory using Office Scripts
-**
 
-**A demo of the "trial by division" method.**
+A demo of the "trial by division" method.**
 
 **YouTube Video URL:** https://youtu.be/xgzwwc9dlWs
 
