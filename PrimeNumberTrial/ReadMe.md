@@ -3,7 +3,7 @@
 
 **A demo of the "trial by division" method.**
 
-**YouTube Video URL:**
+**YouTube Video URL:** https://youtu.be/xgzwwc9dlWs
 
 
 ![image](https://user-images.githubusercontent.com/47678539/219172372-98f143da-81fa-4c73-9d05-f82b76e7cdd2.png)
