@@ -3,7 +3,8 @@
 
 YouTube Video URL:
 
-Office Script: 
+Office Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/PrimeNumberSieve/PrimeGenSieveEratosthenesv2.osts
+
 
 
 The Sieve of Eratosthenes is an algorithm used to find all prime numbers up to a given value. It works by creating a list of all numbers up to the given value and then repeatedly crossing out (or "marking") all multiples of each prime number as they are discovered, leaving only the prime numbers at the end.
