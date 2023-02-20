@@ -1,7 +1,8 @@
 
 **Using the Sieve of Eratosthenes to find the Nth Prime numeb using Excel Office Scripts**
 
-YouTube Video URL:
+YouTube Video URL: https://www.youtube.com/watch?v=R2qX6bInsG0
+
 
 Office Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/PrimeNumberSieve/PrimeGenSieveEratosthenesv2.osts
 
