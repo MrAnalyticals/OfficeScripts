@@ -5,7 +5,7 @@
 
 YouTube Video URL: 
 
-Office Script (TypeScript): 
+Office Script (TypeScript): https://github.com/MrAnalyticals/OfficeScripts/blob/main/StreamDevice/OsStream1.osts
 
 Azure Function (Python): 
 
