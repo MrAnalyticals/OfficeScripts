@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/47678539/221389935-5ce0e492-3588-4363-b298-4872221f5453.png)
 
-In this video demo I show how to use Excel Office Scripts as a simulated streaming device integrated with Azure Data Factory also using Azure Functions to perform a sql generation action. 
+In this demo video I show how to use Excel Office Scripts as a simulated streaming device integrated with Azure Data Factory also using Azure Functions to perform a sql generation action. 
 
 YouTube Video URL: 
 
