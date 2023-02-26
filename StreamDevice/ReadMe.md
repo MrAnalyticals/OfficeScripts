@@ -5,7 +5,7 @@
 In this demo video I show how to use Excel Office Scripts as a simulated streaming device integrating with Azure Data Factory , Power automate , Azure SQL db and Azure Functions to perform a t-sql generation action. 
 
 
-YouTube Video URL: 
+YouTube Video URL: https://youtu.be/FybqRsqpuJA
 
 Office Script (TypeScript): https://github.com/MrAnalyticals/OfficeScripts/blob/main/StreamDevice/OsStream1.osts
 
