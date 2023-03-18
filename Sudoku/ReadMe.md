@@ -6,7 +6,7 @@ The power of Office Scripts, in cases like this are amazing. Where a human would
 
 **YouTube Video:** 
 
-**Office Script.osts file:** 
+**Office Script.osts file:** https://github.com/MrAnalyticals/OfficeScripts/blob/main/Sudoku/SudokuSolver3e.osts 
 
 **Excel Workbook:** https://github.com/MrAnalyticals/OfficeScripts/blob/main/Sudoku/Sudoku%20Solver.xlsx 
 
