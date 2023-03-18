@@ -4,7 +4,7 @@ In this demo I show you have Excel Office Scripts is capable of solving any Sudo
 The power of Office Scripts, in cases like this are amazing. Where a human would take hours and even fail to solve a puzzle Excel will always solve and almost instantaneously.
 
 
-**YouTube Video:** 
+**YouTube Video:** https://youtu.be/mP0wCQKJoCQ 
 
 **Office Script.osts file:** https://github.com/MrAnalyticals/OfficeScripts/blob/main/Sudoku/SudokuSolver3e.osts 
 
