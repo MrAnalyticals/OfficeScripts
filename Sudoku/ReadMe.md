@@ -8,7 +8,7 @@ The power of Office Scripts, in cases like this are amazing. Where a human would
 
 **Office Script.osts file:** 
 
-**Excel Workbook:** 
+**Excel Workbook:** https://github.com/MrAnalyticals/OfficeScripts/blob/main/Sudoku/Sudoku%20Solver.xlsx 
 
 ![image](https://user-images.githubusercontent.com/47678539/226144843-85771708-c3bb-4f50-ac51-6823f9ad01f9.png)
 
