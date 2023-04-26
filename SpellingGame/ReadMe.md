@@ -1,10 +1,10 @@
 **Practise your spelling with this Excel Office Scripts game.** 
-It uses the fetch function to retrieve a definition for each word which serves as a hint guessing the word.
-Each word has one or more asterisks replacing characters. 
+It uses the fetch function to retrieve a definition for each word, from a REST API endpoint, api.dictionaryapi.dev,
+which serves as a hint to guess the word. Each word has one or more asterisks replacing characters. 
 
 **YouTube video:**
 
-**Office Script .tx file:**
+**Office Script .ts file:**
 
 **Office Script .osts file:**
 
