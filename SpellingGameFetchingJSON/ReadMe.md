@@ -7,7 +7,8 @@ YouTube video:
 
 Office Script .ts  :
 
-OfficeScript .osts :
+OfficeScript .osts : https://raw.githubusercontent.com/MrAnalyticals/OfficeScripts/main/SpellingGameFetchingJSON/SpellingTest4.osts
+
 
 ![image](https://user-images.githubusercontent.com/47678539/235309969-0eb2e7ec-c25c-47f0-8eb8-439148a67afb.png)
 
