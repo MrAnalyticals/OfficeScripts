@@ -1,10 +1,10 @@
-**Excel Office Scipts - using the Fetching JSON functionality - a DEMO**
+**Excel Office Scripts - using the Fetching JSON functionality - a DEMO**
 
 YouTube video:
 
-Office Scipt .ts  :
+Office Script .ts  :
 
-OfficeScipt .osts :
+OfficeScript .osts :
 
 ![image](https://user-images.githubusercontent.com/47678539/235309969-0eb2e7ec-c25c-47f0-8eb8-439148a67afb.png)
 
