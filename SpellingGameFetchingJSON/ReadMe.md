@@ -3,9 +3,12 @@
 In this repo and in the video I demonstrate how you can use the Fetch function to retrieve EST API data from an internet endpoint. Here, we ae using the Office Scripts default method: GET. You can, specify different methods if needed. Note the use of a Promise as a return value for the Main function and the .json method together with the interface to parse the response.
 
 
-YouTube video:
+YouTube video: https://youtu.be/vFJIJH0ZNlA
+
 
 Office Script .ts  :
+https://raw.githubusercontent.com/MrAnalyticals/OfficeScripts/main/SpellingGameFetchingJSON/SpellingTest4.ts
+
 
 OfficeScript .osts : https://raw.githubusercontent.com/MrAnalyticals/OfficeScripts/main/SpellingGameFetchingJSON/SpellingTest4.osts
 
