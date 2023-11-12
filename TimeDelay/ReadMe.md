@@ -3,7 +3,10 @@
 ![image](https://github.com/MrAnalyticals/OfficeScripts/assets/47678539/a1b5fb7d-7aec-4977-8a0a-94af9cf1e961)
 
 
-Add this code to your routines whereever you need the code to wait. 
+Add this code to your routines where ever you need the code to wait. 
+
+Youtube video demo:
+
 
 function main(workbook: ExcelScript.Workbook) {
 let selectedSheet = workbook.getWorksheet('TimeDelay')
