@@ -6,7 +6,7 @@
 Add this code to your routines where ever you need the code to wait. 
 
 **YouTube video demo**: 
-
+https://www.youtube.com/watch?v=ho5nGlByjWA&feature=youtu.be
 
 **Video Demo Code**
 function main(workbook: ExcelScript.Workbook) {
