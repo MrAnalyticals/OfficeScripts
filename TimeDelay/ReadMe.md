@@ -5,9 +5,10 @@
 
 Add this code to your routines where ever you need the code to wait. 
 
-Youtube video demo:
+**YouTube video demo**: 
 
 
+**Video Demo Code**
 function main(workbook: ExcelScript.Workbook) {
 let selectedSheet = workbook.getWorksheet('TimeDelay')
 let timeDurationstart = new Date().getTime()
