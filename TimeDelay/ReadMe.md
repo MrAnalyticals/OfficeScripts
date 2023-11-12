@@ -1,4 +1,4 @@
-Adding a time delay to your Office Scripts Code. 
+**Adding a time delay to your Office Scripts Code** 
 
 ![image](https://github.com/MrAnalyticals/OfficeScripts/assets/47678539/a1b5fb7d-7aec-4977-8a0a-94af9cf1e961)
 
