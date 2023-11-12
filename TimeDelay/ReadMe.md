@@ -20,4 +20,6 @@ function sleepy(seconds: number): void {
   const waitUntil: number = new Date().getTime() + seconds * 1000;
   while (new Date().getTime() < waitUntil) {}}
 
+![image](https://github.com/MrAnalyticals/OfficeScripts/assets/47678539/c22be5f3-f6b8-47fd-8fcf-2523842cdc77)
+
   
