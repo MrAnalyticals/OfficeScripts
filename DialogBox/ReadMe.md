@@ -10,6 +10,9 @@ points of your code or actions required to be do by the user.
 YouTube Demo video:
 
 
-DialogDemo1 script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogDemo1.osts 
+DialogDemo1 OSTS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogDemo1.osts 
+DialogDemo1 TS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo1.ts
 
-DialogDemo2 Script: 
+
+DialogBoxDemo2 OSTS Script: 
+DialogBoxDemo2 TS Script: 
