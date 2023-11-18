@@ -8,16 +8,21 @@ points of your code or actions required to be do by the user.
 ![image](https://github.com/MrAnalyticals/OfficeScripts/assets/47678539/5fa8c98b-d97d-4b3d-ae80-f3676c621556)
 
 YouTube Demo 1 video: https://www.youtube.com/watch?v=gP9xlbCrJQ4
+
 YouTube Demo 2 video: https://www.youtube.com/watch?v=xBmi5qucArg&t=2s
 
 
 DialogDemo1 OSTS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogDemo1.osts 
+
 DialogDemo1 TS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo1.ts
+
 **The Demo1 Script** 
 This script simply displays the dialog box for a set duration of 5 seconds.
 
 DialogBoxDemo2 OSTS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo2v2.osts 
+
 DialogBoxDemo2 TS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo2v2.ts 
 
 **The Demo 2 script **
+
 We have a table on this sheet. We click the script button and it creates an image of a pie chart based on the invice totals on the table. If there are more than zero invoices the chart is created and a dialog box displays for a set time of 5 seconds. If there are no invoices the dialog box displays a different message.
