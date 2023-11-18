@@ -23,6 +23,6 @@ DialogBoxDemo2 OSTS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/
 
 DialogBoxDemo2 TS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo2v2.ts 
 
-**The Demo 2 script **
+**The Demo 2 script**
 
 We have a table on this sheet. We click the script button and it creates an image of a pie chart based on the invice totals on the table. If there are more than zero invoices the chart is created and a dialog box displays for a set time of 5 seconds. If there are no invoices the dialog box displays a different message.
