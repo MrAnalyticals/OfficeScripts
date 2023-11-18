@@ -7,7 +7,8 @@ points of your code or actions required to be do by the user.
 
 ![image](https://github.com/MrAnalyticals/OfficeScripts/assets/47678539/5fa8c98b-d97d-4b3d-ae80-f3676c621556)
 
-YouTube Demo video:
+YouTube Demo 1 video: https://www.youtube.com/watch?v=gP9xlbCrJQ4
+YouTube Demo 2 video: https://www.youtube.com/watch?v=xBmi5qucArg&t=2s
 
 
 DialogDemo1 OSTS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogDemo1.osts 
@@ -15,7 +16,7 @@ DialogDemo1 TS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/
 **The Demo1 Script** 
 This script simply displays the dialog box for a set duration of 5 seconds.
 
-DialogBoxDemo2 OSTS Script: 
+DialogBoxDemo2 OSTS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo2v2.osts 
 DialogBoxDemo2 TS Script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogBoxDemo2v2.ts 
 
 **The Demo 2 script **
