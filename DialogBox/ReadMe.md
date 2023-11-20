@@ -11,6 +11,7 @@ YouTube Demo 1 video: https://www.youtube.com/watch?v=gP9xlbCrJQ4
 
 YouTube Demo 2 video: https://www.youtube.com/watch?v=xBmi5qucArg&t=2s
 
+Associated Excel file: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/XLSMFile.xlsm
 
 DialogDemo1 OSTS script: https://github.com/MrAnalyticals/OfficeScripts/blob/main/DialogBox/DialogDemo1.osts 
 
