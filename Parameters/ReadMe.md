@@ -1,6 +1,7 @@
 **Build your own Data Input form in Excel Online using Office Scripts parameters**
 
-Here is the code:  
+Here is the code:  https://github.com/MrAnalyticals/OfficeScripts/blob/main/Parameters/UpdateStaffTable.ts
+
 
 Here is the Aray Params Code: https://github.com/MrAnalyticals/OfficeScripts/blob/main/Parameters/UpdateStaffTable.ts
 
