@@ -4,5 +4,6 @@ Demo Video: https://github.com/MrAnalyticals/OfficeScripts/blob/main/ConditonalF
 
 .ts Code: https://github.com/MrAnalyticals/OfficeScripts/blob/main/ConditonalFormatting/SetPattern.ts
 
-Workbook: 
+Workbook: https://github.com/MrAnalyticals/OfficeScripts/blob/main/ConditonalFormatting/ExcelFormExample.xlsx
+
 
