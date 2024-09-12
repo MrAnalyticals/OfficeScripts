@@ -1,5 +1,5 @@
 **Checkers**, also known as Draughts in some countries, can , now, be played within Excel Online. The code is less than 160 lines long. 
-Copy the code into your own tenant and try it out. Those code builds the board for you! 
+Copy the code into your own tenant and try it out. The code, also, builds your playing board for you! 
 
 ![image](https://github.com/user-attachments/assets/3be85a2e-ba0b-41b7-af85-f5b42f0dbbb9)
 
