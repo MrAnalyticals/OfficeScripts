@@ -15,7 +15,7 @@ Demo 2:
 **Video 2 Dialog**
 
 Following on from my introductory video where I described how it was possible to build a game  of draughts to work in Excel online using office scripts, let’s dive straight into the code 
-This checkers game using the Minimax algorithm for decision-making. 
+This checkers game uses the Minimax algorithm for decision-making. 
 Let’s first describe the code logic:
 1. The game starts by initializing the board and setting the first player to White.
 2. For each turn, the code finds all possible moves, evaluates them using Minimax, and chooses the best one.
