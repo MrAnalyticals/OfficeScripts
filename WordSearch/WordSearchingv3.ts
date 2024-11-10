@@ -1,6 +1,6 @@
 function main(workbook: ExcelScript.Workbook) {
     const sheet = workbook.getActiveWorksheet();
-    const wordListRange = sheet.getRange("A1:A100");
+    const wordListRange = sheet.getRange("A1:A20");
   sheet.getRange("B1").getExtendedRange(ExcelScript.KeyboardDirection.down).getExtendedRange(ExcelScript.KeyboardDirection.right).clear(ExcelScript.ClearApplyTo.contents)
 /*
 Instructions:
