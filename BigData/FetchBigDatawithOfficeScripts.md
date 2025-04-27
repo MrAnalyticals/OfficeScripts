@@ -1,3 +1,7 @@
+From an original Post by Daniel Amundsen (https://www.linkedin.com/in/daniel-gives-power/)
+https://www.linkedin.com/posts/daniel-gives-power_powerautomate-officescript-microsoft365-activity-7321533763778174979-Ajf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFNGTIBW4wAXJDcA3mbSk_kVOak2dNWsHw
+
+![image](https://github.com/user-attachments/assets/c96cdaae-794a-4c26-846e-4bf82e376a78)
 
 ## ✨ Automagic Insight: Fetch 15,000+ Excel Rows in 11 Seconds with Power Automate
 
