@@ -62,5 +62,4 @@ If you want ChatGPT to generate the Office Script **perfectly**, make sure you m
 
 ---
 
-Would you also like me to give you a ready-to-use **Office Script code** sample to plug into your flow? 🚀  
-(Just say the word!)
+Tip: Ask ChatGPT to give you a ready-to-use **Office Script code** sample to plug into your flow? 🚀
